@@ -12,13 +12,13 @@ parameter, then list the images in an Instagram-like grid. Also, there should be
 search bar that you can filter within the album by the image title, when you start
 typing the screen should show only images that are related to this search query.
 
-<p align="center">
+---
 The app allows users to:
 - Browse albums and view images.
 - Zoom into images for better clarity.
 - Search images by name or tags.
 - Share images via the native iOS share sheet.
-</p>
+
 
 ---
 ## Project Screens
