@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zQW-AE-Ol8">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Ytu-UA-5wa">
+            <objects>
+                <viewController id="zQW-AE-Ol8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O2B-mw-HoP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BostaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="k3S-2v-KED">
+                                <rect key="frame" x="96.666666666666686" y="309" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="2sC-Fu-XR7"/>
+                                    <constraint firstAttribute="width" constant="200" id="fIN-zD-3JP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bosta iOS Task" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCN-EJ-6yn">
+                                <rect key="frame" x="81.666666666666686" y="517" width="230" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="667-fs-RSP"/>
+                                    <constraint firstAttribute="height" constant="39" id="WEV-wl-eqn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.88953703640000004" green="0.1309315264" blue="0.076446719469999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CIp-0M-1Jd"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yCN-EJ-6yn" firstAttribute="centerX" secondItem="CIp-0M-1Jd" secondAttribute="centerX" id="ZDW-C5-cf0"/>
+                            <constraint firstItem="k3S-2v-KED" firstAttribute="centerX" secondItem="CIp-0M-1Jd" secondAttribute="centerX" id="fNf-9M-jG4"/>
+                            <constraint firstItem="k3S-2v-KED" firstAttribute="top" secondItem="CIp-0M-1Jd" secondAttribute="top" constant="250" id="h2O-rQ-mm6"/>
+                            <constraint firstItem="yCN-EJ-6yn" firstAttribute="top" secondItem="k3S-2v-KED" secondAttribute="bottom" constant="8" symbolic="YES" id="wbz-Bb-tFJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X1T-U4-6Mn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-344" y="-196"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BostaLogo" width="512" height="512"/>
+    </resources>
+</document>
